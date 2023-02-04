@@ -1,0 +1,76 @@
+.container{
+    border: 1px solid transparent;
+    margin: auto;
+    min-height: 80vh;
+    width: 86.3%;
+}
+.container table{
+    border-spacing: 0;
+}
+.container table tr th{
+    border-bottom: 1px solid rgb(195, 197, 203);
+    width: 15rem;
+    text-align: start;
+    padding: 1rem 0;
+}
+.container table tr td{
+    padding: 1rem 0;
+    border-bottom: 1px solid rgb(195, 197, 203);
+}
+.container table tr td input[type='text']{
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.select{
+    border: 1px solid transparent;
+}
+.select input{
+    width: 20px;
+    accent-color: rgb(255, 83, 83);
+    height: 16px;
+}
+.edit{
+    cursor: pointer;
+    width: 1.8rem;
+}
+
+.edit svg{
+    font-size: 1.45rem;
+    margin-top: 0.1rem;
+}
+.container table div{
+    display: flex;
+}
+.edit span{
+    font-size: 1.1rem;
+}
+.delete{
+    font-size: 1.4rem;
+    margin-left: 0.8rem;
+    cursor: pointer;
+    color: red;
+}
+@media only screen and (max-width: 1058px) {
+    .container{
+        width: 93.3%;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .container{
+        width: 98.3%;
+
+    }
+    .container table tr th{
+        width: auto;
+
+    }
+    .container table tr td{
+        padding: 0.85rem 0;
+        border-bottom: 1px solid rgb(195, 197, 203);
+    }
+    .container table tr td input[type='text']{
+        font-size: 0.85rem;
+    }
+}

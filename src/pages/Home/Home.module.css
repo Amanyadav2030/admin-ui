@@ -1,0 +1,26 @@
+.footerContainer{
+    display: flex;
+    gap: 10%;
+    width: 83%;
+    margin: 0.8rem auto;
+    border: 1px solid transparent;
+}
+
+@media only screen and (max-width: 1058px) {
+    .footerContainer{
+        display: flex;
+        gap: 5%;
+        width: 95%;
+        margin: 0.8rem auto;
+        border: 1px solid transparent;
+    }
+}
+@media only screen and (max-width: 735px) {
+    .footerContainer{
+        display: flex; 
+        gap: 0.4rem;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}

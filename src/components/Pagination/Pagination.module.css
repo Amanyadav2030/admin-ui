@@ -1,0 +1,44 @@
+.Pcontainer{
+    display: flex;
+    gap: 2rem;
+}
+.Pcontainer button{
+    background: #5fd65bd9;
+    padding: 0.3rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1.6px solid transparent;
+}
+.Pcontainer .active{
+    background-color: white;
+    color: #5fd65bd9;
+    border: 1.6px solid #5fd65bd9;
+}
+.Pcontainer .icons{
+    padding: 0.3rem 0.78rem;
+    display: flex;
+    align-items: center;
+}
+
+.Pcontainer button:disabled{
+    background: #acd8ab;
+}
+@media only screen and (max-width: 885px) {
+    .Pcontainer{
+        display: flex;
+        gap: 1rem;
+    }
+    .Pcontainer button{
+        font-size: 0.95rem;
+    }
+}
+@media only screen and (max-width: 735px) {
+    .Pcontainer{
+        height: 2.7rem;
+        margin: auto;
+    }
+}
